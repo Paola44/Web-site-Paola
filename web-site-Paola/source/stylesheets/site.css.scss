@@ -1,0 +1,232 @@
+body {
+  background-color: #484b4f;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  // padding: 18vh 1rem;
+  // text-align: center;
+}
+a {
+  color: rgba(#000, 0.7);
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  // width: 100%;
+  // height: 100%;
+}
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #fbc547;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.btn-flat:hover {
+  background: #d39400;
+  color: white;
+}
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #484b4f;
+  display: flex;
+  color: white;
+}
+.mr-auto {
+  justify-content: space-between;
+  display: flex;
+  padding: 12px;
+  margin: 12px;
+}
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+.navbar-lewagon a {
+  text-decoration: none;
+  padding: 12px;
+}
+.navbar-lewagon li {
+  list-style: none;
+}
+.nav-link {
+  color: white;
+}
+.projets-web {
+  color: white;
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.projets-web-structure {
+  width: 50%;
+  margin: 48px;
+  padding: 12px;
+  h1 {
+    padding-left: 120px;
+  }
+  p {
+    text-align: justify;
+    line-height: 200%;
+  }
+  img {
+    width: 32rem;
+    height: 32rem;
+    text-align: center;
+  }
+}
+.projets-web-deroulement {
+  padding-top: 160px;
+}
+.projets-web-details {
+  display: flex;
+  img {
+    width: 128px;
+    height: 128px;
+    padding: 12px;
+    border-radius: 20%;
+  }
+  p {
+    color: white;
+    text-decoration: none;
+  }
+  h2 {
+    color: #a0a0a0;
+  }
+}
+.projet-texte {
+   padding-left: 40px;
+}
+.projet-icon {
+  padding-top : 24px;
+}
+.who-i-am {
+  margin: 48px;
+  padding: 12px;
+  padding-left: 120px;
+  // padding-right: 120px;
+  background-color: white;
+}
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    color: black;
+    padding-left: 120px;
+  }
+  p {
+    color: black;
+    text-align: justify;
+    line-height: 200%;
+  }
+  img {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+  }
+}
+.presentation-details {
+  width: 50%;
+  padding: 12px;
+}
+.avatar {
+  // width: 50%;
+  margin: auto;
+  img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+  }
+}
+.life-style {
+  display: flex;
+}
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 16px;
+  width: 33%;
+  border-radius: 2px;
+}
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+.references-blog {
+  margin: 48px;
+  padding: 12px;
+  padding-left: 120px;
+  h1 {
+    color: white;
+    padding-left: 120px;
+  }
+  p {
+    color: white;
+  }
+}
+.references-details {
+  border: solid 1px white
+}
+.contact {
+  background-color: black;
+  width: 100%;
+  h1 {
+    color: pink;
+  }
+}
+.form {
+  display: flex;
+}
