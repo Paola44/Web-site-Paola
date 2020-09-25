@@ -1,0 +1,146 @@
+/* design your content */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*/
+
+body {
+  /*background-color: white;*/
+  /*color: rgb(150, 150, 150);*/
+  /*color: rgba(150, 10, 10, 0.5);*/
+  /*color: #1EA2F2;*/
+  font-family: arial;
+  /*font-family: 'Lobster', cursive;*/
+  /*font-size: 16px;*/
+}
+
+/*.html {
+  margin: none;
+}*/
+
+/*h1 {
+  color: black;
+}*/
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.global {
+  display: flex;
+}
+
+
+.left-side {
+  background-image: url("images/Twitter_Bird.png");
+  background-repeat: no-repeat;
+  background-position: -20% 150%;
+  /*background-size: 95%;*/
+  /*background-color: rgb(113, 201, 248);;*/
+  background-color: #71C9F8;
+  width: 50%;
+  height: 100vh;
+}
+
+/*.left-side img {
+  padding-left: 80px;
+  background-position:100% 0%;
+}*/
+
+.right-side {
+  width: 50%;
+  height: 100vh;
+}
+
+
+.details-left {
+  margin-left: 30%;
+  margin-top: 40%;
+}
+
+.details-description {
+  font-weight: bold;
+  color: white;
+  display: flex;
+}
+
+.fa-search {
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.fa-user {
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.fa-comment {
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.right-side img {
+  height: 24px;
+}
+
+.details-right {
+  max-width: 300px;
+  max-height: 80vh;
+  margin: auto;
+  text-align: left;
+  margin-top: 30%;
+}
+
+#world {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+#CTA-twitter {
+  font-weight: bold;
+  color: black;
+  font-size: 12px;
+  margin-top: 64px;
+}
+
+.btn-inscription {
+  background-color: #23A3F2;
+  text-align: center;
+  height: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.btn-inscription:hover {
+  background-color: rgba(5, 128, 198, 0.8);
+}
+
+.btn-inscription a {
+  color: white;
+}
+
+.btn-connexion {
+  background-color: white;
+  text-align: center;
+  height: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 12px;
+  border: solid 1px #23A3F2;
+}
+
+.btn-connexion:hover {
+  background-color: rgba(113, 201, 248, 0.2);
+}
+
+.btn-connexion a {
+  color: #23A3F2;
+}
+
+
+
