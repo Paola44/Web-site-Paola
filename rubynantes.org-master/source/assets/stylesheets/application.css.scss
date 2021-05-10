@@ -1,0 +1,10 @@
+@charset 'utf-8';
+
+@import "./config/index";
+@import "../../../node_modules/bulma/bulma.sass";
+@import "./components/index";
+@import "./layouts/index";
+
+body {
+  min-height: 100vh;
+}

@@ -1,0 +1,19 @@
+.logo {
+  position: relative;
+  top: -120px;
+  background-color: #ffffff;
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  text-align: center;
+
+  &-mobile{
+    background-color: #ffffff;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 24px;
+  }
+}
