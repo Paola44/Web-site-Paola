@@ -54,6 +54,8 @@ padding-bottom: 12px;
   font-size: 28px;
   margin: auto;
   align-item: center;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .event {
@@ -104,9 +106,10 @@ padding-bottom: 12px;
   font-weight: bold;
   }
 
-  a {
-    padding-left: 4px;
-  }
+}
+
+.event-description-link a {
+  padding-left: 4px;
 }
 
 .inscription i {
@@ -196,11 +199,13 @@ padding-bottom: 12px;
 
 .talks-explication {
   width: 70%;
-  padding: 64px;
+  padding-bottom: 12px;
 }
 
 .talks-inscription {
-  width: 30%
+  width: 30%;
+  display: flex;
+  align-item: center;
 }
 
 .btn-bg-red {
@@ -211,5 +216,64 @@ padding-bottom: 12px;
   font-weight: bold;
   font-size: 28px;
   margin: auto;
-  align-item: center;
+  padding-left: 8%;
+  padding-right: 8%;
 }
+
+.talks-details {
+  padding-left: 32px;
+}
+
+.lili {
+  margin-left: 12px;
+}
+
+.slack {
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  // margin-bottom: 12 px;
+}
+
+.rejoindre {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 12px solid #8D0027;
+  color: black;
+  text-align: center;
+  width: 60%;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 64px;
+  padding-right: 64px;
+  font-size: 28px;
+  // display: flex;
+
+  p {
+    // border-radius: 10px;
+  }
+}
+
+.dons {
+
+}
+
+.btn-bg-red-don {
+  width: auto;
+  background-color: #8D0027;
+  padding: 12px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 28px;
+  // margin: auto;
+  // padding-left: 8%;
+  // padding-right: 8%;
+}
+
+
+
+
