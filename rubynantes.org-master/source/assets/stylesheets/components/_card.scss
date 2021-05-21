@@ -8,13 +8,22 @@
   // height: 64px;
   display: flex;
   font-weight: bold;
+
+  img {
+    padding: 12px;
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .title {
   font-size: 16px;
+  font-weight: bold;
   color: #8D0027;
   padding: 32px;
   margin-bottom: 0px !important;
+  text-align: right;
+  // align-item: right;
 }
 
 .banner {
@@ -250,15 +259,6 @@ padding-bottom: 12px;
   padding-left: 64px;
   padding-right: 64px;
   font-size: 28px;
-  // display: flex;
-
-  p {
-    // border-radius: 10px;
-  }
-}
-
-.dons {
-
 }
 
 .btn-bg-red-don {
@@ -269,11 +269,39 @@ padding-bottom: 12px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 28px;
-  // margin: auto;
-  // padding-left: 8%;
-  // padding-right: 8%;
+}
+
+.dons-total {
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #8D0027;
+  display: flex;
+}
+
+.dons {
+  width: 40%;
+}
+
+.btn-bg-white-dons {
+  width: 300px;
+  background-color: white;
+  padding: 12px;
+  color: #8D0027;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 28px;
+  margin: auto;
+  align-item: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
-
-
+.dons-explications {
+  width: 60%;
+  color: white;
+  padding-left: 64px;
+  padding-right: 64px;
+}
