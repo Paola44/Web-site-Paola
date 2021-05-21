@@ -1,0 +1,15 @@
+site:
+  title: Nantes.rb
+  title_separator: •
+  description: ''
+  i18n: en
+  geo:
+    placename: 'Nantes'
+    position: 47.2181;-1.5528
+    region: FR-44
+  url: 'https://rubynantes.org/'
+  twitter_card_img: ''
+  author: Guillaume Cabanel
+
+social:
+  twitter: 'nantesrb‏'
