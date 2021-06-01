@@ -40,6 +40,10 @@
   margin-bottom: 0px !important;
   text-align: right;
   // align-item: right;
+
+  a {
+    color:  #8D0027;
+  }
 }
 
 .banner {
@@ -81,6 +85,10 @@ padding-bottom: 12px;
   align-item: center;
   padding-left: 8%;
   padding-right: 8%;
+
+  a {
+    color:  black;
+  }
 }
 
 .event {
@@ -96,6 +104,12 @@ padding-bottom: 12px;
     font-weight: bold;
   }
 }
+
+/*#event {
+  a {
+    color:  #8D0027;
+  }
+}*/
 
 .event-card {
   display: flex;
@@ -243,6 +257,10 @@ padding-bottom: 12px;
   margin: auto;
   padding-left: 8%;
   padding-right: 8%;
+
+  a {
+    color: white;
+  }
 }
 
 .talks-details {
@@ -285,6 +303,10 @@ padding-bottom: 12px;
   border-radius: 4px;
   font-weight: bold;
   font-size: 28px;
+
+  a {
+    color: white;
+  }
 }
 
 .dons-total {

@@ -1,18 +1,24 @@
 .nantesrb
   .logo-navbar
-    = image_tag "elephant.png"
+    = link_to 'https://rubynantes.org/' do
+      = image_tag 'elephant.png'
+
   .navbar
     .title
-      | Evénement à venir
-    .title
-      | Nos talks
-    .title
-      | Proposer un talk
-    .title
-      | Slack
+      a href="#event" Evénement à venir
 
-    = image_tag "twitter.png"
-    = image_tag "github.png"
+    .title
+      a href="#talks" Nos talks
+
+    .title
+      a href="#talkstodo" Proposer un talk
+
+    .title
+      a href="#slack" Slack
+
+    = link_to image_tag("twitter.png", class: :nantesrb, alt: "Twitter Nantesrb"), "https://twitter.com/nantesrb/", target: :_blank
+    = link_to image_tag("github.png", class: :nantesrb, alt: "Github Nantesrb"), "https://github.com/nantesrb", target: :_blank
+
 
 .banner
   .tiers-left
@@ -25,11 +31,11 @@
       | Il y en a donc pour tous niveaux, du débutant à l'expert, pour les développeurs... ou pas, pour les freelances et les recruteurs, et tous les autres, les curieux et les électrons libres.
 
   .tiers-right
-    .btn-bg-white
-      | Rejoins l'asso
+    .btn-bg-white = link_to 'Rejoins nous', 'https://www.helloasso.com/associations/nantes-rb', target: '_blank'
+
       / link_to
 
-.event
+.event#event
   h1
     | L’événement mensuel à ne pas louper
   p
@@ -48,17 +54,20 @@
         .event-description-link
           | Vous souhaitez développer des web apps sans avoir à connaître un framework javascript en plus (comme Angular ou React) ? Il est possible de créer des interactions avec le navigateurs en utilisant uniquement du Ruby, grâce à la gem "rails motion". Ecrire un chat se fait ainsi en quelques lignes …
           | Cet événement est présenté par
-          a href="https://www.linkedin.com/in/jocelyn-richard-359a0529?originalSubdomain=fr"
-            | Jocelyn R.
+
+          = link_to 'Jocelyn R.', 'https://www.linkedin.com/in/jocelyn-richard-359a0529?originalSubdomain=fr', target: '_blank'
+
           | , développeur web et fidèle à Ruby depuis ses début en France.
 
       .inscription-btn
         .inscription
           i.fas.fa-map-pin
           | en ligne
-        .btn-jaune
-          a href="https://www.meetup.com/fr-FR/Nantes-rb/events/277659388/"
-            | S'inscrire
+        .btn-jaune = link_to 'Inscription', 'https://www.meetup.com/fr-FR/Nantes-rb/', target: '_blank'
+        / .social-link = link_to 'Meetup', 'https://www.meetup.com/fr-FR/Nantes-rb/', target: '_blank'
+
+          / a href="https://www.meetup.com/fr-FR/Nantes-rb/events/277659388/"
+          /   | S'inscrire
 
 .event
   h1
@@ -84,7 +93,7 @@
         p
           | blabla
 
-.talks
+.talks#talks
   .talks-total
     .talks-explication
       h1
@@ -96,20 +105,17 @@
           .lili - 30 minutes de présentation
           .lili - 10 minutes de questions et d’échange
           | - dans la joie et la bonne humeur
-    .talks-inscription
-      .btn-bg-red
-        p
-          |Proposer un talk
+    .talks-inscription#talkstodo
+      .btn-bg-red = link_to 'Proposer un talk', 'https://www.meetup.com/fr-FR/Nantes-rb/', target: '_blank'
 
-.slack
+.slack#slack
   .rejoindre
     p
       | Vous dépanner et vous aider à progresser en Ruby ?
     p
       | Participer aux projets de la communauté ?
 
-    .btn-bg-red-don
-      | Rejoins nous sur Slack
+    .btn-bg-red-don = link_to 'Rejoins nous sur Slack', 'https://join.slack.com/t/nantesrb/shared_invite/enQtNjg2MDM5NzQzNjE4LTQzMjg2NTc1MWZjZDY5N2Q3NTY1Y2M0NDI0ZTYxYjBmNWJkNTdlYjc5ZjAyYWQ0YTRiMTY2MTQ0YWM4MTFlNzQ', target: '_blank'
 
 .dons-total
   .dons
